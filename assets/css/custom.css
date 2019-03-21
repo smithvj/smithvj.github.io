@@ -1,0 +1,30 @@
+/* Add here all your css styles (customizations) */
+a.primary{
+    color: #eec625 !important;
+    text-decoration: underline;
+}
+a.primary:hover{
+    color: #555 !important;
+    text-decoration:underline;
+}
+.g-bg-primary {
+    background-color: #eec625 !important;
+}
+.g-color-primary {
+    color: #eec625 !important;
+}
+.g-brd-primary {
+    border-color: #eec625 !important;
+}
+.u-btn-primary {
+    background-color: #eec625 !important;
+}
+.u-btn-primary:hover {
+    border-color: #edd576;
+    background-color: #edd576 !important;
+}
+.u-go-to-v1:hover, .u-go-to-v1:focus:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #eec625;
+}
