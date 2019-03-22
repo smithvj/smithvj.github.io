@@ -2,8 +2,32 @@
    Add all custom CSS here 
    ======================= */
 /*------------------------------------
-  Default Styles
+  bootstrap.min.css
 ------------------------------------*/
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-bottom: .5rem;
+    font-family: "Montserrat", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    line-height: 1.2;
+    color: inherit;
+}
+/*------------------------------------
+  unity-core.css
+------------------------------------*/
+/* Default Styles */
+body {
+    font-weight: 400;
+    font-size: 1.2rem;
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    color: #555;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -moz-font-feature-settings: "liga", "kern";
+    text-rendering: optimizelegibility;
+    background-color: #fff;
+}
 a {
     color: #eec625;
     outline: none;
