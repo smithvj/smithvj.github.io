@@ -4,14 +4,14 @@
 /*------------------------------------
   Default Styles
 ------------------------------------*/
-.container a {
+a {
     color: #eec625;
     outline: none;
     border-bottom: 1px solid #eec625;
 }
 
-.container a:focus,
-.container a:hover {
+a:focus,
+a:hover {
     color: #dfae23;
     text-decoration: none;
     }
