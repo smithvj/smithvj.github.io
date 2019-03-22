@@ -40,3 +40,9 @@ a {
         text-decoration: none;
         border-bottom: 1px solid #dfae23;
     }
+/*------------------------------------
+  unity-globals.css
+------------------------------------*/
+.g-color-primary {
+    color: #eec625 !important;
+}
