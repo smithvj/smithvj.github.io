@@ -1,3 +1,16 @@
 /* =======================
    Add all custom CSS here 
    ======================= */
+/*------------------------------------
+  Default Styles
+------------------------------------*/
+a {
+    color: #eec625;
+    outline: none;
+    border-bottom: 1px solid #eec625;
+}
+
+    a:focus,
+    a:hover {
+        color: #dfae23;
+    }
