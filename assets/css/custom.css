@@ -48,6 +48,20 @@ body {
 /*------------------------------------
   unity-globals.css
 ------------------------------------*/
+.g-brd-primary {
+    border-color: #eec625 !important;
+}
 .g-color-primary {
     color: #eec625 !important;
+}
+/*------------------------------------
+  unity-components.css
+------------------------------------*/
+.u-header {
+    position: relative;
+    left: 0;
+    right: 0;
+    width: 100%;
+    font-size: 1.25rem;
+    z-index: 501;
 }
