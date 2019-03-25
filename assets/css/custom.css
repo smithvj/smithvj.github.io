@@ -39,6 +39,9 @@ body {
     text-decoration: none;
     border-bottom: 1px solid #dfae23;
 }
+.g-bg-black a {
+    color: #fff;
+}
 /*------------------------------------
   unity-globals.css
 ------------------------------------*/
