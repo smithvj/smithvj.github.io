@@ -15,6 +15,10 @@
 .logo-rs {
     height: 120px;
 }
+.dzsparallaxer.use-loading.loaded .dzsparallaxer--target {
+    opacity: 0.3;
+    visibility: visible;
+}
 /*------------------------------------
   bootstrap.min.css
 ------------------------------------*/
