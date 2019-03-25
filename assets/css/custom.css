@@ -1,6 +1,17 @@
 /* =======================
    Add all custom CSS here 
    ======================= */
+.utility-nav {
+    font-size: 0.825rem;
+    background-color: #000;
+}
+.utility-nav a {
+    color: #fff;
+}
+.utility-nav-link {
+    display: inline-block;
+    padding: .5rem 1rem;
+}
 .logo-rs {
     height: 120px;
 }
