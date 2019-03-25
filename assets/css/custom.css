@@ -33,13 +33,12 @@ body {
     outline: none;
     border-bottom: 1px solid #eec625;
 }
-
 .g-py-100 a:focus,
 .g-py-100 a:hover {
     color: #dfae23;
     text-decoration: none;
     border-bottom: 1px solid #dfae23;
-    }
+}
 /*------------------------------------
   unity-globals.css
 ------------------------------------*/
