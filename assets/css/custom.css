@@ -11,12 +11,15 @@
 }
 span.utility-nav-link {
     display: inline-block;
-    padding: 0.5rem 1rem;
+    padding: 1rem 0;
 }
 span.utility-nav-link::after {
     content: "\2022";
     padding: 28px;
     color: #fff !important;
+}
+span:last-child .utility-nav-link::after {
+    content: "" !important;
 }
 .logo-rs {
     height: 120px;
