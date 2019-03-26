@@ -24,7 +24,8 @@ span:last-child.utility-nav-link::after {
 .logo-rs {
     height: 120px;
 }
-li.nav-item.highlight {
+li.nav-item.highlight,
+.u-btn-primary {
     background: #eec625;
     border-radius: 28px;
     padding: 0 18px;
