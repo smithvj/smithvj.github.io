@@ -18,7 +18,7 @@ span.utility-nav-link::after {
     padding: 28px;
     color: #fff !important;
 }
-span:last-child .utility-nav-link::after {
+span:last-child.utility-nav-link::after {
     content: "" !important;
 }
 .logo-rs {
