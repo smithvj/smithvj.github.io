@@ -15,6 +15,17 @@
 .logo-rs {
     height: 120px;
 }
+li.nav-item.highlight {
+    background: #eec625;
+    border-radius: 28px;
+    padding: 0 18px;
+}
+li.nav-item.highlight:hover {
+    background: #dfae23;
+}
+li.nav-item.highlight a {
+    color: #fff;
+}
 .dzsparallaxer.use-loading.loaded .dzsparallaxer--target {
     opacity: 0.3;
     visibility: visible;
