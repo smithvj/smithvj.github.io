@@ -24,8 +24,7 @@ span:last-child.utility-nav-link::after {
 .logo-rs {
     height: 120px;
 }
-li.nav-item.highlight,
-.u-btn-primary {
+li.nav-item.highlight {
     background: #eec625;
     border-radius: 28px;
     padding: 0 18px;
@@ -115,4 +114,10 @@ body {
     text-decoration: none;
     color: #fff;
     background-color: #eec625;
+}
+.u-btn-primary {
+    background: #eec625;
+    border-radius: 28px !important;
+    padding: 12px 18px;
+    box-shadow: 0 2px 0 0 #dfae23;
 }
