@@ -2,9 +2,9 @@
    Add all custom CSS here 
    ======================= */
 .utility-nav {
-    font-size: 0.825rem;
+    font-size: 0.75rem;
     background-color: #000;
-    text-align: center;
+    letter-spacing: 1px;
 }
 .utility-nav a {
     color: #fff;
@@ -109,4 +109,9 @@ body {
     width: 100%;
     font-size: 1.25rem;
     z-index: 501;
+}
+.u-go-to-v1:hover, .u-go-to-v1:focus:hover {
+    text-decoration: none;
+    color: #fff;
+    background-color: #eec625;
 }
