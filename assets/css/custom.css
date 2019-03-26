@@ -4,6 +4,7 @@
 .utility-nav {
     font-size: 0.825rem;
     background-color: #000;
+    text-align: center;
 }
 .utility-nav a {
     color: #fff;
@@ -15,7 +16,7 @@ span.utility-nav-link {
 span.utility-nav-link::after {
     content: "\2022";
     padding: 28px;
-    color: #fff;
+    color: #fff !important;
 }
 .logo-rs {
     height: 120px;
