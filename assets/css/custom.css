@@ -8,9 +8,14 @@
 .utility-nav a {
     color: #fff;
 }
-.utility-nav-link {
+span.utility-nav-link {
     display: inline-block;
     padding: 0.5rem 1rem;
+}
+span.utility-nav-link::after {
+    content: "\2022";
+    padding: 28px;
+    color: #fff;
 }
 .logo-rs {
     height: 120px;
@@ -24,7 +29,7 @@ li.nav-item.highlight:hover {
     background: #dfae23;
 }
 li.nav-item.highlight a {
-    color: #fff;
+    color: #fff !important;
 }
 .dzsparallaxer.use-loading.loaded .dzsparallaxer--target {
     opacity: 0.3;
