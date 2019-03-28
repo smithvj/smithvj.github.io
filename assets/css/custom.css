@@ -91,6 +91,22 @@ body {
     color: #fff;
     opacity: 0.8;
 }
+/*  Highlight Color */
+::-moz-selection {
+  color: #fff;
+  background-color: #dfae23; }
+
+::selection {
+  color: #fff;
+  background-color: #dfae23; }
+
+.g-bg-primary ::-moz-selection {
+  color: #dfae23;
+  background-color: #fff; }
+
+.g-bg-primary ::selection {
+  color: #dfae23;
+  background-color: #fff; }
 /*------------------------------------
   unity-globals.css
 ------------------------------------*/
