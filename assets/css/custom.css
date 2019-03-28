@@ -39,6 +39,11 @@ li.nav-item.highlight a {
     opacity: 0.3;
     visibility: visible;
 }
+.player .vp-title .vp-title-header,
+.player .vp-sidedock,
+.player .vp-controls .logo {
+   display: none;
+}
 /*------------------------------------
   bootstrap.min.css
 ------------------------------------*/
