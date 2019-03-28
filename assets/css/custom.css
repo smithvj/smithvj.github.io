@@ -92,6 +92,12 @@ body {
     border-bottom: 1px solid #fff;
     opacity: 0.8;
 }
+.g-bg-black a:hover,
+.g-bg-colorblock a:hover {
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    opacity: 1;
+}
 /*  Highlight Color */
 ::-moz-selection {
   color: #fff;
