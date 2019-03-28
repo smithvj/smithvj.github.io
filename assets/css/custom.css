@@ -42,7 +42,7 @@ li.nav-item.highlight a {
 .player .vp-title .vp-title-header,
 .player .vp-sidedock,
 .player .vp-controls .logo {
-   display: none;
+   display: none !important;
 }
 /*------------------------------------
   bootstrap.min.css
