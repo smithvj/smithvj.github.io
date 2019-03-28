@@ -99,6 +99,9 @@ body {
 .g-color-primary {
     color: #eec625 !important;
 }
+section.bg-yellow-gradient {
+    background: linear-gradient(to right bottom, #eec625 49.75%, #dfae23 50%);
+}
 /*------------------------------------
   unity-components.css
 ------------------------------------*/
