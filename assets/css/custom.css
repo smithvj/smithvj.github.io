@@ -86,7 +86,8 @@ body {
     text-decoration: none;
     border-bottom: 1px solid #dfae23;
 }
-.g-bg-black a {
+.g-bg-black a,
+.g-bg-colorblock a {
     color: #fff;
     opacity: 0.8;
 }
@@ -99,7 +100,7 @@ body {
 .g-color-primary {
     color: #eec625 !important;
 }
-section.bg-yellow-gradient {
+section.g-bg-colorblock {
     background: linear-gradient(to right bottom, #eec625 49.75%, #dfae23 50%);
 }
 /*------------------------------------
