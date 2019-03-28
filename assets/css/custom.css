@@ -89,6 +89,7 @@ body {
 .g-bg-black a,
 .g-bg-colorblock a {
     color: #fff;
+    border-bottom: 1px solid #fff;
     opacity: 0.8;
 }
 /*  Highlight Color */
