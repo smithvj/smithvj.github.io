@@ -98,6 +98,9 @@ body {
     border-bottom: 1px solid #fff;
     opacity: 1;
 }
+.g-py-100 a.js-fancybox {
+    border-bottom: 0;
+}
 /*  Highlight Color */
 ::-moz-selection {
   color: #fff;
