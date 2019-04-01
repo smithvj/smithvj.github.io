@@ -123,7 +123,8 @@ body {
 .g-bg-primary {
    background-color: #eec625 !important;
 }
-.g-color-primary {
+.g-color-primary,
+.g-color-primary--hover:hover {
     color: #eec625 !important;
 }
 section.g-bg-colorblock {
