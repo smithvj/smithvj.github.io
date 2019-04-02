@@ -130,6 +130,9 @@ body {
 .g-color-primary--hover:hover {
     color: #eec625 !important;
 }
+.g-bg-white-opacity-0_7--after::after {
+    background-color: rgba(0, 0, 0, 0) !important;
+}
 section.g-bg-colorblock {
     background: linear-gradient(to right bottom, #eec625 49.75%, #dfae23 50%);
 }
