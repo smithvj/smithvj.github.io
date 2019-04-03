@@ -88,13 +88,13 @@ body {
 }
 .g-bg-black a,
 .g-bg-colorblock a {
-    color: #fff;
+    color: #fff !important;
     border-bottom: 1px solid #fff;
     opacity: 0.8;
 }
 .g-bg-black a:hover,
 .g-bg-colorblock a:hover {
-    color: #fff;
+    color: #fff !important;
     border-bottom: 1px solid #fff;
     opacity: 1;
 }
