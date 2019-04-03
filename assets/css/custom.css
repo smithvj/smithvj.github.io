@@ -101,6 +101,9 @@ body {
 .g-py-100 a.js-fancybox {
     border-bottom: 0;
 }
+article a {
+    font-weight: 700;
+}
 /*  Highlight Color */
 ::-moz-selection {
   color: #fff;
