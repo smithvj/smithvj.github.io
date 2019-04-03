@@ -76,7 +76,7 @@ body {
     background-color: #fff;
 }
 .g-py-100 a {
-    color: #eec625;
+    color: #eec625 !important;
     outline: none;
     border-bottom: 1px solid #eec625;
 }
