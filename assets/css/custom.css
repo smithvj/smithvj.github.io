@@ -39,6 +39,12 @@ li.nav-item.highlight a {
     opacity: 0.3;
     visibility: visible;
 }
+.transform-skew {
+    transform: skew(0deg, 4deg);
+}
+.transform-straighten {
+    transform: skew(0deg, -4deg);
+}
 /*------------------------------------
   bootstrap.min.css
 ------------------------------------*/
