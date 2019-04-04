@@ -45,6 +45,12 @@ li.nav-item.highlight a {
 .transform-straighten {
     transform: skew(0deg, -4deg);
 }
+.transform-skew-low-right {
+    transform: skew(0deg, -4deg);
+}
+.transform-straighten-low-right {
+    transform: skew(0deg, 4deg);
+}
 /*------------------------------------
   bootstrap.min.css
 ------------------------------------*/
