@@ -89,7 +89,7 @@ body {
     -moz-osx-font-smoothing: grayscale;
     -moz-font-feature-settings: "liga", "kern";
     text-rendering: optimizelegibility;
-    background-color: #fff;
+    background-color: #dfae23;
 }
 .g-py-100 a {
     color: #eec625 !important;
@@ -109,7 +109,7 @@ body {
     opacity: 0.8;
 }
 .g-bg-black a:hover,
-.g-bg-colorblock a:hover {
+.g-bg-primary a:hover {
     color: #fff !important;
     border-bottom: 1px solid #fff;
     opacity: 1;
