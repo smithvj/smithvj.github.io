@@ -155,7 +155,7 @@ article a {
 section.g-bg-colorblock {
     background: linear-gradient(to right bottom, #eec625 49.75%, #dfae23 50%);
 }
-.g-px-0 {
+section.g-px-0 {
     background-color: #fff;
     padding-left: 0 !important;
     padding-right: 0 !important;
