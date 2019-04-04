@@ -41,12 +41,16 @@ li.nav-item.highlight a {
 }
 .transform-skew {
     transform: skew(0deg, 4deg);
+    position: relative;
+    z-index: 100;
 }
 .transform-straighten {
     transform: skew(0deg, -4deg);
 }
 .transform-skew-low-right {
     transform: skew(0deg, -4deg);
+    position: relative; 
+    z-index: 100;
 }
 .transform-straighten-low-right {
     transform: skew(0deg, 4deg);
@@ -150,6 +154,12 @@ article a {
 }
 section.g-bg-colorblock {
     background: linear-gradient(to right bottom, #eec625 49.75%, #dfae23 50%);
+}
+.g-px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    z-index: 0;
+    position: relative;
 }
 /*------------------------------------
   unity-components.css
