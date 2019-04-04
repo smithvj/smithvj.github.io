@@ -162,6 +162,11 @@ section.g-px-0 {
     z-index: 0;
     position: relative;
 }
+@media (min-width: 0) {
+    .g-pa-25 {
+        padding: 0;
+    }
+}
 /*------------------------------------
   unity-components.css
 ------------------------------------*/
