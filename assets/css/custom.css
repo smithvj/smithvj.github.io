@@ -147,6 +147,9 @@ article a {
 /*------------------------------------
   unity-globals.css
 ------------------------------------*/
+nav .g-brd-primary {
+    border-color: #eec625 !important;
+}
 .g-brd-primary {
     border-color: #fff !important;
 }
