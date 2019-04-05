@@ -91,6 +91,11 @@ body {
     text-rendering: optimizelegibility;
     background-color: #dfae23;
 }
+a {
+    color: #eec625;
+    text-decoration: none;
+    border-bottom: 1px solid #eec625;
+}
 .g-py-100 a:focus,
 .g-py-100 a:hover {
     color: #dfae23;
@@ -98,7 +103,7 @@ body {
     border-bottom: 1px solid #dfae23;
 }
 .g-bg-black a,
-.g-bg-colorblock a {
+.g-bg-primary a {
     color: #fff !important;
     border-bottom: 1px solid #fff;
     opacity: 0.8;
@@ -135,7 +140,7 @@ article a {
   unity-globals.css
 ------------------------------------*/
 .g-brd-primary {
-    border-color: #eec625 !important;
+    border-color: #fff !important;
 }
 .g-bg-primary {
    background-color: #eec625 !important;
@@ -183,4 +188,8 @@ section.g-px-0 {
     border-radius: 28px !important;
     padding: 12px 18px;
     box-shadow: 0 2px 0 0 #dfae23;
+}
+.u-btn-primary:hover, .u-btn-primary.active {
+        border-color: #dfae23;
+        background-color: #dfae23;
 }
