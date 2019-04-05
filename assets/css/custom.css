@@ -91,11 +91,6 @@ body {
     text-rendering: optimizelegibility;
     background-color: #dfae23;
 }
-.g-py-100 a {
-    color: #eec625 !important;
-    outline: none;
-    border-bottom: 1px solid #eec625;
-}
 .g-py-100 a:focus,
 .g-py-100 a:hover {
     color: #dfae23;
@@ -164,7 +159,7 @@ section.g-px-0 {
 }
 @media (min-width: 0) {
     .g-pa-25 {
-        padding: 0;
+        padding: 0 !important;
     }
 }
 /*------------------------------------
