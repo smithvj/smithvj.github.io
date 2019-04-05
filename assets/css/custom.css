@@ -8,6 +8,8 @@
 }
 .utility-nav a {
     color: #fff;
+    text-decoration: none;
+    border-bottom: 0;
 }
 span.utility-nav-link {
     display: inline-block;
@@ -170,6 +172,10 @@ section.g-px-0 {
 @media (min-width: 0) {
     .g-pa-25 {
         padding: 0 !important;
+    }
+    .g-px-5 {
+        margin-left: 0;
+        margin-right: 0;
     }
 }
 /*------------------------------------
