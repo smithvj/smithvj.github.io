@@ -91,6 +91,10 @@ body {
     text-rendering: optimizelegibility;
     background-color: #dfae23;
 }
+nav a {
+    text-decoration: none;
+    border-bottom: 0;
+}
 a {
     color: #eec625;
     text-decoration: none;
@@ -118,6 +122,7 @@ a {
     border-bottom: 0;
 }
 article a {
+    color: #eec625;
     font-weight: 700;
 }
 /*  Highlight Color */
@@ -192,4 +197,15 @@ section.g-px-0 {
 .u-btn-primary:hover, .u-btn-primary.active {
         border-color: #dfae23;
         background-color: #dfae23;
+}
+.g-bg-primary a.btn-white,
+.g-bg-primary a.btn-white:hover {
+    border-bottom: 0;
+}
+.u-btn-primary.btn-white,
+.u-btn-primary.btn-white:hover {
+    background: #dfae23;
+    border-radius: 28px !important;
+    padding: 12px 18px;
+    box-shadow: 0 2px 0 0 #dfae23;
 }
