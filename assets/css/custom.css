@@ -24,6 +24,9 @@ span.utility-nav-link::after {
 span:last-child.utility-nav-link::after {
     content: "" !important;
 }
+.u-header__section.u-header__section--light.g-bg-white {
+    background-color: #fff;
+}
 .logo-rs {
     height: 120px;
 }
