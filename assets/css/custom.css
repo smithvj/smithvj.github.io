@@ -125,7 +125,7 @@ a {
     border-bottom: 0;
 }
 article a {
-    color: #eec625;
+    color: #eec625 !important;
     font-weight: 700;
 }
 /*  Highlight Color */
@@ -175,8 +175,8 @@ section.g-px-0 {
         padding: 0 !important;
     }
     .g-px-5 {
-        margin-left: 0;
-        margin-right: 0;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
     }
 }
 /*------------------------------------
@@ -215,4 +215,8 @@ section.g-px-0 {
     border-radius: 28px !important;
     padding: 12px 18px;
     box-shadow: 0 2px 0 0 #dfae23;
+}
+.u-heading-v2-3--bottom::after, .u-heading-v2-3--top::before {
+    width: 5rem;
+    border-top-width: 4px;
 }
