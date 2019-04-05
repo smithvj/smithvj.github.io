@@ -6,7 +6,8 @@
     background-color: #000;
     letter-spacing: 1px;
 }
-.utility-nav a {
+.utility-nav a,
+#contacts-section a {
     color: #fff;
     text-decoration: none;
     border-bottom: 0;
