@@ -177,6 +177,8 @@ section.g-px-0 {
     .g-px-5 {
         margin-left: 0 !important;
         margin-right: 0 !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 }
 /*------------------------------------
