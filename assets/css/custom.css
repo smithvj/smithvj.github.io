@@ -124,7 +124,7 @@ a {
 .g-py-100 a.js-fancybox {
     border-bottom: 0;
 }
-article a {
+article a.g-color-main {
     color: #eec625 !important;
     font-weight: 700;
 }
@@ -182,6 +182,11 @@ section.g-px-0 {
         margin-right: 0 !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
+    }
+}
+@media (min-width: 992px) {
+    .g-brd-left--lg {
+        border-left: solid 3px #fff !important;
     }
 }
 /*------------------------------------
