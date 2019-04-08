@@ -115,6 +115,7 @@ a {
 .g-bg-black a,
 .g-bg-primary a {
     color: #fff !important;
+    font-weight: 700;
     border-bottom: 1px solid #fff;
     opacity: 0.8;
 }
