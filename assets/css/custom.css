@@ -115,14 +115,17 @@ a {
 .g-bg-black a,
 .g-bg-primary a {
     color: #fff !important;
+    font-weight: 700;
     border-bottom: 1px solid #fff;
     opacity: 0.8;
 }
 .g-bg-black a:hover,
 .g-bg-primary a:hover {
     color: #fff !important;
+    font-weight: 700;
     border-bottom: 1px solid #fff;
     opacity: 1;
+
 }
 .g-py-100 a.js-fancybox {
     border-bottom: 0;
