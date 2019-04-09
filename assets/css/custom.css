@@ -121,7 +121,6 @@ a {
 .g-bg-gray-light-v2 a,
 .g-bg-primary a {
     color: #fff !important;
-    font-weight: 700 !important;
     border-bottom: 1px solid #fff;
     opacity: 0.8;
 }
@@ -129,7 +128,6 @@ a {
 .g-bg-gray-light-v2 a:hover,
 .g-bg-primary a:hover {
     color: #fff !important;
-    font-weight: 700;
     border-bottom: 1px solid #fff;
     opacity: 1;
 }
