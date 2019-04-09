@@ -27,9 +27,6 @@ span.utility-nav-link::after {
 span:last-child.utility-nav-link::after {
     content: "" !important;
 }
-.navbar-toggler-icon {
-    color: #fff;
-}
 .u-header__section.u-header__section--light.g-bg-white {
     background-color: #fff;
 }
