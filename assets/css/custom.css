@@ -3,8 +3,10 @@
    ======================= */
 .utility-nav {
     font-size: 0.75rem;
-    background-color: #000;
     letter-spacing: 1px;
+    text-align: center;
+    display: table;
+    margin: 0 auto;
 }
 .utility-nav a,
 #contacts-section a {
