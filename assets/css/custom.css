@@ -62,6 +62,10 @@ li.nav-item.highlight a {
 .transform-straighten-low-right {
     transform: skew(0deg, 4deg);
 }
+/* Instagram Feed */
+.instagallery {
+    margin-bottom: 2rem;
+}
 /*------------------------------------
   bootstrap.min.css
 ------------------------------------*/
