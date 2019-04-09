@@ -27,6 +27,9 @@ span.utility-nav-link::after {
 span:last-child.utility-nav-link::after {
     content: "" !important;
 }
+.utility-nav i.fa.fa-bars {
+    color: #fff;
+}
 .u-header__section.u-header__section--light.g-bg-white {
     background-color: #fff;
 }
