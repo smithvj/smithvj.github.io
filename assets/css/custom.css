@@ -19,6 +19,14 @@ span.utility-nav-link {
     display: inline-block;
     padding: 1rem 0;
 }
+span.utility-nav-link::after {
+    content: "\2022";
+    padding: 0 14px;
+    color: #fff !important;
+}
+span:last-child.utility-nav-link::after {
+    content: "" !important;
+}
 .utility-nav i.fa.fa-bars {
     color: #fff;
 }
@@ -185,21 +193,11 @@ section.g-px-0 {
     position: relative;
 }
 @media (min-width: 992px) {
-    span.utility-nav-link::after {
-        content: "\2022";
-        padding: 0 14px;
-        color: #fff !important;
-    }
-
-    span:last-child.utility-nav-link::after {
-        content: "" !important;
-    }
-
     .g-brd-left--lg {
         border-left: solid 3px #fff !important;
     }
 }
-@media (min-width: 576px) {
+@media only screen and (min-width: 576px) {
     span.utility-nav-link {
         display: block;
         padding: 0.75rem 0;
