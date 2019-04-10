@@ -211,7 +211,7 @@ section.g-px-0 {
         border-left: solid 3px #fff !important;
     }
 }
-@media (min-width: 812px) {
+@media (max-width: 812px) {
     span.utility-nav-link {
         display: block;
         padding: 0.75rem 0;
