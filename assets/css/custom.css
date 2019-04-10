@@ -211,7 +211,7 @@ section.g-px-0 {
         border-left: solid 3px #fff !important;
     }
 }
-@media (max-width: 812px) {
+@media only screen and (max-width: 812px) {
     span.utility-nav-link {
         display: block;
         padding: 0.75rem 0;
