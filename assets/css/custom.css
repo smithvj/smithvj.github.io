@@ -197,17 +197,6 @@ section.g-px-0 {
         border-left: solid 3px #fff !important;
     }
 }
-@media only screen and (min-width: 576px) {
-    span.utility-nav-link {
-        display: block;
-        padding: 0.75rem 0;
-    }
-
-        span.utility-nav-link::after {
-            content: "";
-            padding: 0;
-        }
-}
 @media (min-width: 0) {
     .g-pa-100 {
         padding: 0.5rem !important;
