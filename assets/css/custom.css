@@ -211,6 +211,16 @@ section.g-px-0 {
         padding-right: 0 !important;
     }
 }
+@media (max-width: 767.98px) {
+    span.utility-nav-link {
+        display: block;
+        padding: 0.75rem 0;
+    }
+    span.utility-nav-link::after {
+        content: "";
+        padding: 0;
+    }
+}
 /*------------------------------------
   unity-components.css
 ------------------------------------*/
