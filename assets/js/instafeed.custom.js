@@ -21,7 +21,7 @@ $( document ).ready(function() {
             }
             return true;
         },
-        template: '<div class="col-lg-3 instagallery"><a href="{{link}}" title="{{caption}}" target="_blank"><img src="{{image}}" alt="{{caption}}" class="img-fluid"/></a></div>',
+        template: '<header>{{model.template}}</header><footer><a href="http://instagram.com/{{model.user.username}}">@{{model.user.username}}</a><br>{{caption}}</footer>',
 
     });
         //  tagName: 'gofcsonc',
