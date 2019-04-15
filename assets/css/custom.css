@@ -68,7 +68,9 @@ li.nav-item.highlight a {
     transform: skew(0deg, 4deg);
 }
 /* Instagram Feed */
-.instagallery {
+div.instagallery {
+    height: 255px;
+    overflow: hidden;
     margin-bottom: 2rem;
 }
 /* Posts Feed */
