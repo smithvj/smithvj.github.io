@@ -71,6 +71,22 @@ li.nav-item.highlight a {
 .instagallery {
     margin-bottom: 2rem;
 }
+/* Posts Feed */
+span.magazine-badge.label-red {
+    top: 0;
+    left: 0;
+    color: #fff;
+    padding: 2px 8px;
+    position: absolute;
+    background: #000;
+}
+.magazine-news-img img {
+    max-width: 290px;
+    margin-bottom: 1rem;
+}
+.publish-date {
+    margin: 1rem 0;
+}
 /*------------------------------------
   bootstrap.min.css
 ------------------------------------*/
