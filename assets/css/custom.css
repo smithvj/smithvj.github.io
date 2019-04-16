@@ -265,6 +265,10 @@ section.g-px-0 {
     font-size: 1.25rem;
     z-index: 501;
 }
+.u-header__section--light .navbar-nav:not([class*="u-main-nav-v"]) .nav-link, 
+.u-header__section--light--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link {
+    color: #000;
+}
 .u-go-to-v1:hover, .u-go-to-v1:focus:hover {
     text-decoration: none;
     color: #fff;
