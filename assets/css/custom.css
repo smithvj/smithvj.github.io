@@ -285,7 +285,8 @@ section.g-px-0 {
         background-color: #dfae23;
 }
 .g-bg-primary a.btn-white,
-.g-bg-primary a.btn-white:hover {
+.g-bg-primary a.btn-white:hover,
+a.nav-link:focus {
     border-bottom: 0;
 }
 .u-btn-primary.btn-white,
