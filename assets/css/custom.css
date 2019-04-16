@@ -171,6 +171,12 @@ article a.g-color-main,
 article.g-bg-white a {
     color: #eec625 !important;
     font-weight: 700;
+    border-bottom: 1px solid #eec625;
+}
+article.g-bg-white a:hover {
+    color: #dfae23 !important;
+    font-weight: 700;
+    border-bottom: 1px solid #dfae23;
 }
 /*  Highlight Color */
 ::-moz-selection {
