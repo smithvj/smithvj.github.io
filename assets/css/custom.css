@@ -167,7 +167,7 @@ a:focus, a:hover {
 .g-py-100 a.js-fancybox {
     border-bottom: 0;
 }
-article a.g-color-main {
+article a {
     color: #eec625 !important;
     font-weight: 700;
 }
