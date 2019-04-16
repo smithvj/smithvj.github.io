@@ -134,17 +134,20 @@ nav a, nav a:hover {
 }
 a {
     color: #eec625;
+    font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid #eec625;
 }
 a:focus, a:hover {
     color: #dfae23;
+    font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid #eec625;
-}
+    }
 .g-py-100 a:focus,
 .g-py-100 a:hover {
     color: #dfae23;
+    font-weight: 700;
     text-decoration: none;
     border-bottom: 1px solid #dfae23;
 }
@@ -153,6 +156,7 @@ a:focus, a:hover {
 .g-bg-gray-light-v2 a,
 .g-bg-primary a {
     color: #fff !important;
+    font-weight: 700;
     border-bottom: 1px solid #fff;
     opacity: 0.8;
 }
@@ -161,6 +165,7 @@ a:focus, a:hover {
 .g-bg-gray-light-v2 a:hover,
 .g-bg-primary a:hover {
     color: #fff !important;
+    font-weight: 700;
     border-bottom: 1px solid #fff;
     opacity: 1;
 }
