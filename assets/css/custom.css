@@ -8,7 +8,7 @@
     display: table;
     margin: 0 auto;
 }
-.utility-nav a,
+.utility-nav a, .utility-nav a:hover,
 #contacts-section a, #contacts-section a:hover {
         color: #fff;
         font-weight: 400;
