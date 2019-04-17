@@ -169,7 +169,8 @@ a:focus, a:hover {
     border-bottom: 1px solid #fff;
     opacity: 1;
 }
-.g-py-100 a.js-fancybox {
+.g-py-100 a.js-fancybox,
+.g-py-400 a.js-fancybox {
     border-bottom: 0;
 }
 article a.g-color-main,
