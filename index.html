@@ -47,9 +47,10 @@
     <main>
 
         <!-- Header -->
-        <header id="js-header" class="u-header u-header--sticky-top">
+        <header id="js-header" class="u-header u-header--sticky-top u-header--toggle-section u-header--change-appearance" data-header-fix-moment="300" style="margin-top: 0px;">
+
             <!-- Utility Navigation -->
-            <div style="background-color: #000;">
+            <div style="background-color: #000;" class="u-header__section u-header__section--hidden u-header__section--dark">
                 <nav class="navbar navbar-expand-lg utility-nav text-uppercase g-font-weight-600">
                     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon">
@@ -83,7 +84,7 @@
                         <!-- End Responsive Toggle Button -->
                         <!-- Logo -->
                         <a href="index.html" class="navbar-brand d-flex">
-                            <img src="https://smithvj.github.io/assets/images/FCSO-34-logo.png" class="logo-rs" />
+                            <img src="https://smithvj.github.io/assets/images/FCSO-34-logo.png" class="logo-rs">
                         </a>
                         <!-- End Logo -->
                         <!-- Main Navigation -->
@@ -93,9 +94,9 @@
                                 <li class="nav-item  g-mx-10--lg g-mx-15--xl">
                                     <a href="#!" class="nav-link g-py-7 g-px-0">About Us</a>
                                 </li>
-                                <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
+                                <li class="nav-item hs-has-sub-menu g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
                                     <a id="nav-link--blog" class="nav-link g-py-7 g-px-0" href="#!" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--blog">Career Paths</a>
-                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--blog" aria-labelledby="nav-link--blog">
+                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling animated fadeOut" id="nav-submenu--blog" aria-labelledby="nav-link--blog" style="display: none;">
                                         <li class="dropdown-item">
                                             <a class="nav-link" href="single-career-path-page-template.html">Detention Officer</a>
                                         </li>
@@ -112,7 +113,7 @@
                                 </li>
                                 <li class="nav-item hs-has-sub-menu  g-mx-10--lg g-mx-15--xl" data-animation-in="fadeIn" data-animation-out="fadeOut">
                                     <a id="nav-link--features" class="nav-link g-py-7 g-px-0" href="#!" aria-haspopup="true" aria-expanded="false" aria-controls="nav-submenu--features">Our Impact</a>
-                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features">
+                                    <ul class="hs-sub-menu list-unstyled u-shadow-v11 g-brd-top g-brd-primary g-brd-top-2 g-min-width-220 g-mt-18 g-mt-8--lg--scrolling" id="nav-submenu--features" aria-labelledby="nav-link--features" style="display: none;">
                                         <li class="dropdown-item ">
                                             <a class="nav-link" href="our-stories.html">Our Stories</a>
                                         </li>
@@ -136,6 +137,7 @@
                             </ul>
                         </div>
                         <!-- End Main Navigation -->
+                    </div>
                 </nav>
             </div>
         </header>
@@ -549,7 +551,7 @@
 
     <!-- JS Implementing Plugins -->
     <script src="https://smithvj.github.io/assets/vendor/slick-carousel/slick/slick.js"></script>
-    <script src="assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
+    <script src="https://smithvj.github.io/assets/vendor/hs-megamenu/src/hs.megamenu.js"></script>
     <script src="https://smithvj.github.io/assets/vendor/hs-megamenu/src/carousel.js"></script>
     <script src="assets/vendor/dzsparallaxer/dzsparallaxer.js"></script>
     <script src="assets/vendor/dzsparallaxer/dzsscroller/scroller.js"></script>
@@ -560,12 +562,12 @@
     <!-- JS Unify -->
     <script src="assets/js/hs.core.js"></script>
     <script src="assets/js/components/hs.carousel.js"></script>
-    <script src="assets/js/components/hs.header.js"></script>
-    <script src="assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="https://smithvj.github.io/assets/js/components/hs.header.js"></script>
+    <script src="https://smithvj.github.io/assets/js/helpers/hs.hamburgers.js"></script>
     <script src="assets/js/components/hs.tabs.js"></script>
     <script src="assets/js/components/hs.popup.js"></script>
     <script src="assets/js/components/text-animation/hs.text-slideshow.js"></script>
-    <script src="assets/js/components/hs.go-to.js"></script>
+    <script src="https://smithvj.github.io/assets/js/components/hs.go-to.js"></script>
 
     <!-- JS Customization -->
     <script src="assets/js/custom.js"></script>
