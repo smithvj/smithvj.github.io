@@ -128,7 +128,7 @@ body {
     text-rendering: optimizelegibility;
     background-color: #dfae23;
 }
-nav a, nav a:hover {
+nav a, nav a:hover, nav a:focus {
     text-decoration: none;
     border-bottom: 0;
 }
@@ -169,8 +169,7 @@ a:focus, a:hover {
     border-bottom: 1px solid #fff;
     opacity: 1;
 }
-.g-py-100 a.js-fancybox,
-.g-py-400 a.js-fancybox {
+.g-py-100 a.js-fancybox {
     border-bottom: 0;
 }
 article a.g-color-main,
@@ -243,10 +242,6 @@ section.g-px-0 {
         margin-right: 0 !important;
         padding-left: 0 !important;
         padding-right: 0 !important;
-    }
-    .g-py-400 {
-        padding-top: 24.28571rem !important;
-        padding-bottom: 8.28571rem !important;
     }
 }
 @media (max-width: 767.98px) {
