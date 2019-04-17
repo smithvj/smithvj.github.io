@@ -9,7 +9,7 @@
     margin: 0 auto;
 }
 .utility-nav a,
-#contacts-section a {
+#contacts-section a, #contacts-section a:hover {
         color: #fff;
         font-weight: 400;
         text-decoration: none;
