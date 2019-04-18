@@ -209,8 +209,9 @@ article.g-bg-white a:hover {
 .g-brd-primary {
     border-color: #fff !important;
 }
-.g-bg-primary {
-   background-color: #eec625 !important;
+.g-bg-primary,
+.g-bg-primary--hover:hover {
+    background-color: #eec625 !important;
 }
 .g-color-primary,
 .g-color-primary--hover:hover {
