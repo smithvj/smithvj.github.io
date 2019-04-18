@@ -210,7 +210,8 @@ article.g-bg-white a:hover {
     border-color: #fff !important;
 }
 .g-bg-primary,
-.g-bg-primary--hover:hover {
+.g-bg-primary--hover:hover,
+.u-block-hover:hover .g-bg-primary--hover {
     background-color: #eec625 !important;
 }
 .g-color-primary,
