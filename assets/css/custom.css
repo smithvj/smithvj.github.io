@@ -214,6 +214,9 @@ article.g-bg-white a:hover {
 .u-block-hover:hover .g-bg-primary--hover {
     background-color: #eec625 !important;
 }
+.g-bg-secondary {
+    background-color: #dedede !important;
+}
 .g-color-primary,
 .g-color-primary--hover:hover {
     color: #eec625 !important;
@@ -302,4 +305,7 @@ a.nav-link:focus {
 .u-heading-v2-3--bottom::after, .u-heading-v2-3--top::before {
     width: 5rem;
     border-top-width: 4px;
+}
+.u-shadow-v19 {
+    box-shadow: 0 5px 10px -6px rgba(0, 0, 0, 0.3);
 }
