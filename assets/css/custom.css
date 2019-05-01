@@ -162,13 +162,13 @@ a:focus, a:hover {
     opacity: 0.8;
 }
 .g-bg-black a:hover,
-.g-bg-yellow-v2 a:hover,
+.g-bg-yellow-v2 a:hover, .g-bg-yellow-v2 a:focus,
 .g-bg-gray-light-v2 a:hover,
 .g-bg-primary a:hover {
     color: #fff !important;
     font-weight: 700;
     border-bottom: 1px solid #fff;
-    opacity: 1;
+     opacity: 1;
 }
 .g-py-100 a.js-fancybox {
     border-bottom: 0;
