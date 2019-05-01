@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,400i,700,700i');
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    min-height: 100%;
+}
+
+a {
+    color: #22364B;
+    text-decoration: none;
+}
+
+div#container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/* HEADINGS ========================== */
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+h5 {
+    font-size: 16px;
+}
+
+h6 {
+    font-size: 14px;
+}
+
+i.fas {
+    margin: 0 10px;
+}
+
+/* HEADER section ========================== */
+
+div#header {
+    background: #22364B;
+    height: 75px;
+    border: 0;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 10px;
+}
+
+div#header a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* DESCRIPTION section ====================== */
+
+div#description {
+    background: #DFAE23;
+    height: auto;
+    padding: 20px;
+    color: #ffffff;
+}
+
+/* SIDEBAR ================================= */
+
+div#sidebar {
+    float: left;
+    display: inline-block;
+    width: 20%;
+    background: #8F91A2;
+    border-left: 0;
+    border-bottom: 0;
+    margin: 0;
+    height: 100%;
+    padding: 30px;
+    color: #fff;
+}
+
+ div#sidebar li {
+    padding: 8px 0;
+}
+
+div#sidebar a {
+    color: #fff;
+    text-decoration: none;
+}
+
+div#sidebar a:hover {
+    color: #22364B;
+}
+
+/* HOME ========================================= */
+
+div#home {
+    float: right;
+    display: inline-block;
+    width: 69%;
+    background: #e5e4d7;
+    border-right: 0;
+    border-left: 0;
+    border-bottom: 0;
+    overflow: auto;
+    margin: 0;
+    min-height: -webkit-fill-available;
+    padding: 30px;
+}
+
+/* 3 Columns =========================== */
+
+.column {
+    display: inline-block;
+    border: 0;
+    padding: 20px 10px;
+    margin: 4px;
+    width: 28%;
+    color: #ffffff;
+}
+
+.column img {
+    max-width: 99%;
+}
+
+/* Buttons =========================== */
+
+button.active {
+    border: 0;
+    border-radius: 3px;
+    padding: 20px 10px;
+    margin: 4px;
+    width: 28%;
+    background: #22364B;
+    color: #ffffff;
+    font: 400 18px 'Nanum Gothic';
+}
+
+button.hover {
+    border: 0;
+    border-radius: 3px;
+    padding: 20px 10px;
+    margin: 4px;
+    width: 28%;
+    background: #8F91A2;
+    color: #ffffff;
+    font: 400 18px 'Nanum Gothic';
+}
