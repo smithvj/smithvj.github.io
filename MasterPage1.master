@@ -92,8 +92,8 @@
                         </button>
                         <!-- End Responsive Toggle Button -->
                         <!-- Logo -->
-                        <a href="index.html" class="navbar-brand d-flex">
-                            <img src="./assets/images/FCSO-34-logo.png" class="logo-rs">
+                        <a href="default.aspx" class="navbar-brand d-flex">
+                            <img src="assets/images/FCSO-34-logo.png" class="logo-rs">
                         </a>
                         <!-- End Logo -->
                         <!-- Main Navigation -->
