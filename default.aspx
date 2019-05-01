@@ -2,7 +2,7 @@
 
 <asp:Content ID="Content3" ContentPlaceHolderID="homeContent" Runat="Server">
 
-        <!-- Promo Block -->
+        <!-- Page Header Section -->
         <section style="margin-top: 200px;">
             <div class="dzsparallaxer auto-init height-is-based-on-content use-loading mode-scroll" data-options='{direction: "reverse", settings_mode_oneelement_max_offset: "150"}'>
                 <div class="divimage dzsparallaxer--target w-100 g-bg-cover g-bg-pos-top-center g-bg-img-hero g-bg-bluegray-opacity-0_2--after" style="height: 130%; background-image: url(./assets/images/team_opti.jpg);"></div>
@@ -35,7 +35,7 @@
                 </div>
             </div>
         </section>
-        <!-- End Promo Block -->
+        <!-- End Page Header Section -->
         <!-- 3-Column Blocks -->
         <section class="g-py-100 g-bg-primary transform-skew-low-right">
             <div class="container transform-straighten-low-right">
